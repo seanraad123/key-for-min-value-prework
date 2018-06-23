@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if count == 0
       numbers.push(value)
     end
-  elsif count > 0
+    elsif count > 0
       if value < numbers[0]
         numbers.push(value)
     end
