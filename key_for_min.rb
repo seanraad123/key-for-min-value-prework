@@ -5,8 +5,13 @@ def key_for_min_value(name_hash)
   count = 0
   numbers = []
   name_hash.each do |key, value|
-    numbers.push(value)
+    if count == 0
+      numbers.push(value)
+    end
     if count > 0
+      if value < numbers[0]
+        numbers.push(value)
+    end
   end
   print numbers
 end
