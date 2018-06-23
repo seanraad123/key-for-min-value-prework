@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
     end
     count += 1
   end
-  print numbers[0]
+  #print numbers[0]
 end
 
 
