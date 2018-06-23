@@ -7,7 +7,8 @@ def key_for_min_value(name_hash)
   keys = []
   name_hash.each do |key, value|
     if count == 0
-      numbers.push(key)
+      numbers.push(value)
+      keys.push(key)
       print numbers
     elsif count > 0
       if value < numbers[0]
