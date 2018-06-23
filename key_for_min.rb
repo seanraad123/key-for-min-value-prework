@@ -6,12 +6,12 @@ def key_for_min_value(name_hash)
   numbers = []
   name_hash.each do |key, value|
     if count == 0
-      numbers.push(value)
+      numbers.push(key)
     elsif count > 0
       if value < numbers[0]
-        numbers.unshift(value)
+        numbers.unshift(key)
       elsif value > numbers[0]
-        numbers.push(value)
+        numbers.push(key)
       end
     end
     count += 1
