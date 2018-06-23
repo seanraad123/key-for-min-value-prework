@@ -10,12 +10,13 @@ def key_for_min_value(name_hash)
       numbers.push(value)
       keys.push(key)
       print numbers
+      '''
     elsif count > 0
       if value < numbers[0]
         numbers.unshift(key)
       elsif value > numbers[0]
         numbers.push(key)
-      end
+      end'''
     end
     count += 1
   end
