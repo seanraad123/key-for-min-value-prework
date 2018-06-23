@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   numbers = []
   name_hash.each do |key, value|
     numbers.push(value)
+    if count > 0
   end
   print numbers
 end
