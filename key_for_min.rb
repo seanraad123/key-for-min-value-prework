@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
         numbers.unshift(value)
       elsif value > numbers[0]
         number.push(value)
+      end
     end
   end
   print numbers
