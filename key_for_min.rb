@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
         number.push(value)
       end
     end
+    count += 1
   end
   print number
 end
