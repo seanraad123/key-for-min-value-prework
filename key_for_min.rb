@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
       end
     end
   end
-  print number
+
 
 
 ikea = {:chair => 255, :table => 85, :mattress => 450}
