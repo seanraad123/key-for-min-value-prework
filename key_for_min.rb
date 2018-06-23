@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
         numbers.unshift(key)
       elsif value > numbers[0]
         numbers.push(key)
-      end'''
+      end
     end
     count += 1
   end
