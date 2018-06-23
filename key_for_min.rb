@@ -24,6 +24,6 @@ def key_for_min_value(name_hash)
 end
 
 
-ikea = {:chair => 1, :table => 8522, :mattress => 2}
+ikea = {:chair => 999, :table => 8522, :mattress => 2}
 
 key_for_min_value(ikea)
